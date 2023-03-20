@@ -1,0 +1,28 @@
+Didn't moved these methods from Function Class because considering them as Util methods, most of them were used in several classes and rest have Utillity kind of logic,
+so they are more suitable to Function class which I have considered as Utililty Class.
+
+Apart from methods, The String Variables present in functions class are considered as Utility Strings.
+
+1)withinBounds(WorldModel world, Point pos)
+2)isOccupied(WorldModel world, Point pos)
+3)getOccupancyCell(WorldModel world, Point pos) 
+4)adjacent(Point p1, Point p2)
+5)getNumFromRange(int max, int min)
+6)load(Scanner in, WorldModel world, ImageStore imageStore)
+7)processLine(String line, WorldModel world, ImageStore imageStore)
+8)tryAddEntity(WorldModel world, Entity entity)
+9)addEntity(WorldModel world, Entity entity)
+10)parseBackground(String[] properties, WorldModel world, ImageStore imageStore)
+11)parseSapling(String[] properties, WorldModel world, ImageStore imageStore)
+12)parseDude(String[] properties, WorldModel world, ImageStore imageStore)
+13)parseFairy(String[] properties, WorldModel world, ImageStore imageStore)
+14)parseHouse(String[] properties, WorldModel world, ImageStore imageStore)
+15)createFairy()
+16)createHouse()
+17)createObstacle()
+18)createTree()
+19)createStump
+20)nearestEntity()
+21)distanceSquared()
+22)findNearest
+23)clamp()
